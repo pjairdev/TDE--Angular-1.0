@@ -1,0 +1,186 @@
+header{
+    background-color: var(--preto);
+    height: 7rem;
+}
+
+#headerSpan{
+    justify-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    padding-top: 2rem;
+
+    color: var(--brancoFosco);
+    
+}
+
+#body{
+    border: 5px solid;
+    border-radius: 9px;
+    border-color: var(--preto);
+    background-color: var(--laranja-500);
+    
+    width: 60vh;
+    height: 30.5rem;
+    flex-wrap: wrap;
+    margin-top: 7.7%;
+    margin-left: 34.5%;    
+}
+
+#containerSpan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40%;
+    width: 400px;
+}
+
+#spaceButton{
+    margin-bottom: 0px;
+}
+
+#title{
+    margin-top: -1rem;
+    font-size: 2rem;
+    height: 90%;
+    color: var(--brancoFosco);
+}
+
+#containerImg{
+    width: 4rem;
+    margin-left: 2rem;
+    margin-bottom: -2.5rem;
+    padding-top: 20px;
+}
+
+img{
+    margin-top: 0.2rem;
+    width: 4rem;
+    border-radius: 10px;
+}
+
+#editTitle{
+    display: flex;
+    justify-content: center;
+    margin-top: 3.6rem;
+    color: var(--brancoFosco);
+    background-color: var(--preto);
+    padding-left: 3.5%;
+    margin-bottom: 7.8rem;
+}
+
+.containerInfo{
+    height: 90%;
+}
+
+.buttonInput{
+    padding-top: 1vh;
+    padding-left: 1vh;
+    padding-bottom: 0.5vh;
+    background-color: var(--brancoFosco);
+    border-radius: 12px;
+    margin-left: 12%;
+    width: 44vh;
+    height: 2vh;
+    border: 0px solid;
+}
+
+#containerButtonInput{
+    flex-direction: column;
+    display: flex;
+    gap: 1.4vh;
+    height: 70%;
+    padding-top: 25%;
+}
+
+#containerButtonProfile{
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttonProfile{
+    border-color: var(--preto);
+    color: var(--preto);
+
+    width: 14vh;
+    height: 2.2rem;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-left: 39%;
+    margin-top: 1.3vh;
+}
+
+#buttonEditProfile{
+    background-color: var(--green-500);
+    border-color: var(--preto); 
+    color: var(--brancoFosco);
+}
+
+#buttonEditProfile:hover{
+    background-color: var(--green-300);
+    transition: 0.6;
+}
+
+#buttonDeleteProfile{
+    background-color: var(--red-500);
+    border-color: var(--preto); 
+    color: var(--brancoFosco);
+}
+
+#buttonDeleteProfile:hover{
+    background-color: var(--red-300);
+    transition: 0.6;
+}
+
+#buttonEditProfile{
+    padding-left: -5rem;
+}
+
+.spanEventCreate{
+    font-size: 1rem;
+    margin-bottom: -0.55rem;
+    padding-left: 5rem;
+}
+
+#buttonNavigation{
+    display: flex;
+    margin-left: 87%;
+}
+
+#buttonNavigation button{ width: 6.5rem;
+    height: 100%;
+    border-radius: 10px;
+    background-color: var(--laranja-700);
+    border: 1px solid;
+}
+
+#buttonNavigation button:hover{
+    background-color: var(--laranja-500);
+}
+
+#separatorButton{
+    margin-left: 4%;
+}
+
+#containerFormSpan{
+    display: flex;
+    justify-content: center;
+    padding-top: 2.7rem;
+}
+
+#containerFormSpan span{
+    border-bottom: 1px solid var(--preto);
+    font-size: 25px;
+}
+
+.styleSpan{
+    display: flex;
+    justify-content: center;
+    background-color: var(--brancoFosco);
+    border: 1px solid ;
+    
+    padding-top: 0.2rem;
+    height: 1.5rem;
+    margin-bottom: -1rem;
+}

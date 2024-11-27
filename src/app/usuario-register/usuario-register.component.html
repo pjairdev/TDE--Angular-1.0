@@ -1,0 +1,23 @@
+
+<main>
+    <body>
+        <div class="login_cadastro">
+            <input class="buttonLoginCadastro" type="submit" id="buttonLoginCadastroId" mat-button value="Login" (click)="Logar()">
+            <input class="buttonLoginCadastro" type="submit" value="Cadastrar" disabled>
+        </div>
+        <div class="containerInfo">
+            <div id="divSpanText">
+                <span id="span_Text">Cadastrar</span>
+            </div>
+        
+            <form [ngClass]="class_validate" [formGroup]="form_register" (ngSubmit)="registrar()">
+                <input id="buttonInput1" class="form_control" formControlName="nome" type="text" placeholder="CPF" required=>
+                <input id="buttonInput2" class="form_control" formControlName="email" type="email" placeholder="Email"  required=>
+                <input id="buttonInput3" class="form_control" formControlName="cpf" type="text" placeholder="Nome"  required=>
+                <input id="buttonInput4" class="form_control" formControlName="senha" type="password" placeholder="Senha"  required=>
+              
+                <input id="registrar" type="submit" mat-button value="Cadastrar" class="btn float-right registrar_btn">
+            </form>
+        </div>
+    </body>
+</main>

@@ -1,0 +1,44 @@
+<header>
+
+    <div id="buttonDiv">
+        <input id="buttonEventCreate" type="button" mat-button value="Criar" (click)="navigateHome()">
+    </div>
+
+<!-- 
+    <tr *ngFor="let usuario of usuarios;">
+        <td>{{usuario.id}}</td>
+        <td>{{ usuario.nome }}</td>
+        <td>{{ usuario.email }}</td>
+        <td>{{ usuario.cpf }}</td>
+        <td>{{ usuario.senha }}</td> -->
+
+</header>
+
+<div>
+    <table *ngIf="usuarios.length == 0">
+        <thead>
+             <tr>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>Telefone</th>
+                <th>Ações ADM</th>
+            </tr>
+            <div id="separator"></div>
+        </thead>
+    
+        <tbody>
+            <tr >
+                    <td>Osvaldo</td>
+                    <td>osvaldogmail.com</td>
+                    <td>(75)98320-5718</td>
+                <td>
+                    <img id="alterarUsuario" src="https://cdn-icons-png.flaticon.com/512/5509/5509361.png" alt="imagem para alterar usuario" (click)="alterarUsuario(idUsuario)">
+                
+                    <img id="removerUsuario" src="https://cdn-icons-png.flaticon.com/512/2984/2984959.png" alt="imagem para remover usuario" (click)="removerUsuario(idUsuario)">
+                
+                    <img id="promoverUsuario" src="https://cdn-icons-png.flaticon.com/512/1783/1783893.png" alt="imagem para promover usuario paa adm" (click)="promoverUsurario(idUsuario)">
+                </td>
+            </tr>
+            </tbody>
+        </table>
+</div>

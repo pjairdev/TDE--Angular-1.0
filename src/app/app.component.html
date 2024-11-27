@@ -1,0 +1,44 @@
+<header>
+    <nav>
+        <ul>
+            <li class="dropdown">
+                <a (click)="toggleMenu()">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1144/1144760.png" alt="">
+                </a>
+                <div class="dropdownMenu">
+                    <a href="">Home</a>
+                    <div id="separator"></div>
+                    <a href="usuario/list">Lista de usuários</a>
+                    <div id="separator"></div>
+                    <a href="usuario/editar">Editar Usuário</a>
+                    <div id="separator"></div>
+
+                    <a href="evento/criar">Criar Evento</a>
+                    <div id="separator"></div>
+                    <a href="evento/list">Lista de Evento</a>
+                    <div id="separator"></div>                    
+
+                    <a href="palestra/criar">Criar Palestra</a>
+                    <div id="separator"></div>
+                    <a href="palestra/list">Listar Palestra</a>
+                    <div id="separator"></div>
+                    <a href="minicurso/criar">Criar Minicurso</a>
+                    <div id="separator"></div>
+                    <a href="minicurso/list">Listar Minicurso</a>
+                    <div id="separator"></div>
+
+                    <a href="inscricao/evento">Inscrição de Evento</a>
+                    <div id="separator"></div>                   
+                    <a href="inscricao/palestra">Inscrição de Palestra</a>
+                    <div id="separator"></div>
+                    <a href="inscricao/minicurso">Inscrição de Minicurso</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <div id="containerLogo" (click)="navigationLogin()">
+        <img src="https://cdn.discordapp.com/attachments/965753059085025320/1311388380785016863/userWhite-removebg-preview.png?ex=6748ad1a&is=67475b9a&hm=a8f3de309f470f39105573ff57482405e55c4295486e00fd864f170ed1c12a0b&" alt="login">
+    </div>
+</header>
+
+<router-outlet />

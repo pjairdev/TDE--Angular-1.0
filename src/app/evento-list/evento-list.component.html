@@ -1,0 +1,48 @@
+<header>
+
+    <div id="buttonDiv">
+        <input id="buttonEventCreate" type="button" mat-button value="Criar" (click)="navigationCriarEvento()">
+    </div>
+
+</header>
+
+<div>
+    <table *ngIf="eventos.length != 0">
+        <thead>
+            <tr>
+                
+                <th>Nome</th>
+                <th>Data de Inicio</th>
+                <th>Data de Termino</th>
+                <th>Data Limite</th>
+                <th>Vagas</th>
+                <th>Descrição</th>
+                <th>Palestrante</th>
+                <th>Inscreva-se</th>
+                <th>Remover</th>
+                
+            </tr>
+            <div id="separator"></div>
+        </thead>
+        <tbody>
+            
+            <tr *ngFor="let evento of eventos;">
+                <td>{{evento.nome}}</td>
+                <td>{{evento.dt_inicio}}</td>
+                <td>{{evento.dt_fim}}</td>
+                <td>{{evento.dt_limite_inscricao}}</td>
+                <td>{{evento.numero_vagas}}</td>
+                <td>{{evento.descricao}}</td>
+                <td>{{evento.nome_palestrante}}</td>
+               
+                <td>
+                    <img id="imgInscricao" src="https://cdn-icons-png.flaticon.com/512/4028/4028647.png" alt="">
+                </td>
+                <td>
+                    <img src="https://cdn.discordapp.com/attachments/965753059085025320/1311039217840685126/subscribe.png?ex=674767eb&is=6746166b&hm=8bbd157990bc978b66b0a687bf3722000af25c9e90abc6b893413846bce18b79&" alt="">
+                </td>
+            </tr>
+            
+        </tbody>
+    </table>
+</div>

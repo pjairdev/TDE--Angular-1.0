@@ -1,0 +1,159 @@
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 87.5%;
+    background-color: var(--musgo);
+}
+
+body{
+    border: 5px solid;
+    border-radius: 9px;
+    border-color: var(--preto);
+    background-color: var(--laranja-500);
+    width: 60vh;
+    height: 45rem;
+    flex-wrap: wrap;
+    
+}
+
+.containerInfo{
+    height: 90%;
+}
+
+#buttonInput1{
+    padding-top: 1vh;
+    padding-left: 1vh;
+    padding-bottom: 0.5vh;
+    background-color: var(--brancoFosco);
+    border-radius: 12px;
+    margin-left: 12%;
+    width: 44vh;
+    height: 2vh;
+    border: 0px solid;
+}
+#buttonInput2{
+    padding-top: 1vh;
+    padding-left: 1vh;
+    padding-bottom: 0.5vh;
+    background-color: var(--brancoFosco);
+    border-radius: 12px;
+    margin-left: 12%;
+    width: 44vh;
+    height: 2vh;
+    border: 0px solid;
+}
+#buttonInput3{
+    padding-top: 1vh;
+    padding-left: 1vh;
+    padding-bottom: 0.5vh;
+    background-color: var(--brancoFosco);
+    border-radius: 12px;
+    margin-left: 12%;
+    width: 44vh;
+    height: 2vh;
+    border: 0px solid;
+}
+#buttonInput4{
+    padding-top: 1vh;
+    padding-left: 1vh;
+    padding-bottom: 0.5vh;
+    background-color: var(--brancoFosco);
+    border-radius: 12px;
+    margin-left: 12%;
+    width: 44vh;
+    height: 2vh;
+    border: 0px solid;
+}
+#buttonInput5{
+    padding-top: 1vh;
+    padding-left: 1vh;
+    padding-bottom: 0.5vh;
+    background-color: var(--brancoFosco);
+    border-radius: 12px;
+    margin-left: 12%;
+    width: 44vh;
+    height: 2vh;
+    border: 0px solid;
+}
+#buttonInput6{
+    padding-top: 1vh;
+    padding-left: 1vh;
+    padding-bottom: 0.5vh;
+    background-color: var(--brancoFosco);
+    border-radius: 12px;
+    margin-left: 12%;
+    width: 44vh;
+    height: 2vh;
+    border: 0px solid;
+}
+#buttonInput7{
+    padding-top: 1vh;
+    padding-left: 1vh;
+    padding-bottom: 0.5vh;
+    background-color: var(--brancoFosco);
+    border-radius: 12px;
+    margin-left: 12%;
+    width: 44vh;
+    height: 2vh;
+    border: 0px solid;
+}
+#buttonInput8{
+    padding-top: 1vh;
+    padding-left: 1vh;
+    padding-bottom: 0.5vh;
+    background-color: var(--brancoFosco);
+    border-radius: 12px;
+    margin-left: 12%;
+    width: 44vh;
+    height: 2vh;
+    border: 0px solid;
+}
+
+#divSpanText{
+    padding-top: 3.5vh;
+    padding-left: 33%;
+    padding-bottom: 3.5vh;
+}
+span{
+    font-size: 25px;
+}
+
+form{
+    flex-direction: column;
+    display: flex;
+    gap: 1.4vh;
+    height: 90%;
+}
+
+#criarEvento{
+    background-color: var(--laranja-700);
+    border-color: var(--preto);
+    color: var(--preto);
+    
+    width: 14vh;
+    height: 2.2rem;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-left: 39%;
+    margin-top: 1.3vh;
+}
+
+#criarEvento:hover{
+    background-color: var(--brancoFosco);
+    transition: 0.6s;
+}
+
+.spanEventCreate{
+    font-size: 1rem;
+    margin-bottom: -0.55rem;
+    padding-left: 5rem;
+}
+
+#spanText{
+     border-bottom: 1px solid var(--preto);
+}
+
+

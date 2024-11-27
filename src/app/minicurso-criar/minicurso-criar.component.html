@@ -1,0 +1,55 @@
+
+<main>
+    <body>
+        <div class="containerInfo">
+            
+            <div id="divSpanText">
+                <span id="spanText">Criar minicurso</span>
+            </div>
+        
+            <form >
+
+                <div class="formGroup">
+                    <input type="text" id="buttonInput1"  placeholder="Nome do evento" formControlName="nome" required>
+                </div>
+
+                <div class="formGroup">
+                    <span class="spanEventCreate" >Data do inicio:</span>
+                <input type="text" id="buttonInput2"  placeholder="Data do inicio" formControlName="dt_inicio" required>
+                </div>
+
+                <div class="formGroup">
+                    <span class="spanEventCreate" >Data do término:</span>
+                    <input type="text" id="buttonInput3"  placeholder="Data do término" formControlName="dt_fim" required>
+                </div>
+
+                <div class="formGroup">
+                    <span class="spanEventCreate" >Horário:</span>
+                <input type="text" id="buttonInput4"  placeholder="Horário" formControlName="horario" required>
+                </div>
+
+                <div class="formGroup">
+                    <span class="spanEventCreate" >Vagas:</span>
+                <input type="text" id="buttonInput5"  placeholder="Vagas" formControlName="vagas" required>
+                </div>
+
+                <div class="formGroup">
+                    <span class="spanEventCreate" >Descrição do evento:</span>
+                <input type="text" id="buttonInput6"  placeholder="Descrição do evento" formControlName="descrição" required>
+                </div>
+
+                <div class="formGroup">
+                    <span class="spanEventCreate" >Palestrante:</span>
+                <input type="text" id="buttonInput7"  placeholder="Palestrante" formControlName="nome_palestrante" required>
+                </div>
+
+                <div class="formGroup">
+                    <span class="spanEventCreate" >Data Limite:</span>
+                <input type="text" id="buttonInput8"  placeholder="Data Limite" formControlName="dt_limite_inscricao" required>
+                </div>
+
+                <input id="criarEvento" type="submit" mat-button value="Criar minicurso" class="btn float-right minicurso_btn">
+            </form>
+        </div>
+    </body>
+</main>

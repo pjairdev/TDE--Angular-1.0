@@ -1,0 +1,24 @@
+<main>
+    <body>
+        
+        <div id="divSpanText">
+            <span id="spanText">Criar inscrição evento</span>
+        </div>
+
+        
+            <form [ngClass]="class_validate" [formGroup]="form_criarInscricao" (ngSubmit)="salvar()">
+                
+                <div class="formGroup">
+                    <input type="text"  id="buttonInput1" placeholder="Identificador do evento" formControlName="idEvento" required>
+                 </div>
+                 
+                 <div class="formGroup">
+                    <input type="password" id="buttonInput2" placeholder="Identificador do Participante" formControlName="idParticipante" required>
+                 </div>
+                
+                <div class="formGroup">
+                    <input id="criarEvento" type="submit" mat-button value="Salvar" class="btn float-right salvar_btn">
+                </div>
+            </form>
+    </body>
+</main>

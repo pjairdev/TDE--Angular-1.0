@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", monospace;
+}
+
+:root{
+    --brancoFosco: #fefefe;
+
+    --musgo: #dddebb;
+
+    --laranja-500: #f09234;
+    --laranja-600: #d88430;
+    --laranja-700: #dd7415;
+    --laranja-800: #e27512;
+
+    --preto: #171717;
+
+    --green-300: #00B37E;
+    --green-500: #00875f;
+
+    --red-300: #e0303f;
+    --red-500: #cc1323;
+
+    --gray-800: #E1E1E6;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+}
+
+input[type="button"]{
+    cursor: pointer;
+}
+
+body{    
+    width: 100%;
+    height: 100vh;
+    background-color: var(--musgo);
+}

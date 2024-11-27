@@ -1,0 +1,48 @@
+<header>
+    
+    <div id="containerImg">
+        <img src="
+        https://cdn.discordapp.com/attachments/965753059085025320/1310430253008551977/Imagem_do_WhatsApp_de_2024-11-14_as_14.43.21_fd838cb3.jpg?ex=674530c6&is=6743df46&hm=94c434878564d4e3ef8ec5245e08da7e8c772b3c755b2d1ba4007f1c7030de23&" 
+        alt="pvt líder paracendo q tá cagando">
+    </div>
+    <div id="containerSpan">
+     <span id="title">Usuário</span>
+    </div>
+
+    <div id="buttonNavigation">
+        <div>
+            <button>Gerenciar eventos</button>
+        </div>
+
+        <div id="separatorButton">
+            <button>Editar Eventos</button>
+        </div>
+    </div>
+</header>
+
+    <div id="body">
+        <div class="containerInfo">
+            
+            <div id="divSpanText">
+                <span id="spanText">Editar usuário</span>
+            </div>
+        
+            <form [ngClass]="class_validate" [formGroup]="form_edit" (ngSubmit)="editarUsuario()">
+                
+                <span class="spanEventCreate">Nome:</span>
+                <input class="buttonInput" type="text" placeholder="Nome">
+                
+                <span class="spanEventCreate" >Email:</span>
+                <input class="buttonInput" type="text" placeholder="Email">
+
+                <span class="spanEventCreate" >Senha:</span>
+                <input class="buttonInput" type="text" placeholder="Senha">
+
+                <div id="containerButtonProfile">
+                    <input id= "buttonEditProfile" type="submit" mat-button value="Editar" class="btn float-right editar_btn">
+                    <input id= "buttonRemoveProfile " type="submit" mat-button value="Remover" class="btn float-right remover_btn">
+                </div>
+            </form>
+        </div>
+    </div>
+    

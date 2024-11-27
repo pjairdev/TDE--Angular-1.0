@@ -1,0 +1,39 @@
+<main>
+    <body>
+        <div class="containerInfo">
+            
+            <div id="divSpanText">
+                <span id="spanText">Criar evento</span>
+            </div>
+        
+            <form [ngClass]="class_validate" [formGroup]="form_eventList" (ngSubmit)="criarEvento()" >
+                
+                <span class="spanEventCreate">Nome do evento:</span>
+                <input class="buttonInput" type="text" placeholder="Nome do evento">
+
+                <span class="spanEventCreate" >Data do inicio:</span>
+                <input class="buttonInput" type="text" placeholder="Data do inicio">
+
+                <span class="spanEventCreate" >Data do término:</span>
+                <input class="buttonInput" type="text" placeholder="Data do término">
+
+                <span class="spanEventCreate" >Horário:</span>
+                <input class="buttonInput" type="text" placeholder="Horário">
+
+                <span class="spanEventCreate" >Vagas:</span>
+                <input class="buttonInput" type="text" placeholder="Vagas">
+
+                <span class="spanEventCreate" >Descrição do evento:</span>
+                <input class="buttonInput" type="text" placeholder="Descrição do evento">
+
+                <span class="spanEventCreate" >Palestrante:</span>
+                <input class="buttonInput" type="text" placeholder="Palestrante">
+
+                <span class="spanEventCreate" >Data Limite:</span>
+                <input class="buttonInput" type="text" placeholder="Data Limite">
+
+                <input id="criarEvento" type="submit" mat-button value="Criar" class="btn float-right criar_btn">
+            </form>
+        </div>
+    </body>
+</main>

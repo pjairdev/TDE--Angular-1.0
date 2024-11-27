@@ -1,0 +1,29 @@
+
+    <main>
+        <body>
+            <div class="login_cadastro">
+                <input class="buttonLoginCadastro" type="submit" mat-button value="Login" disabled>
+                <input class="buttonLoginCadastro" type="submit" mat-button value="Cadastrar" (click)="cadastrar()"/>
+            </div>
+            <div class="containerInfo">
+                <div id="divSpanText">
+                    <span>Login</span>
+                </div>
+            
+                <form [ngClass]="class_validate" [formGroup]="form_login" (ngSubmit)="logar()">
+                    
+                    <div class="formGroup">
+                        <input type="text"  id="buttonInput1" placeholder="CPF" formControlName="cpf" required>
+                     </div>
+                     
+                     <div class="formGroup">
+                        <input type="password" id="buttonInput2" placeholder="Senha" formControlName="senha" required>
+                     </div>
+                    
+                    <div class="formGroup">
+                          <input id="login" type="submit" mat-button value="Logar" class="btn float-right login_btn">
+                    </div>
+                </form>
+            </div>
+        </body>
+    </main>
